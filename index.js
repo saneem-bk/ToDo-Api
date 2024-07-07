@@ -1,10 +1,10 @@
 import express from 'express';
-import {port} from './config.js';
 
 const app = express();
 
 app.use(express.json());
 
+port = 2000
 let todos = [];
 let newId = 1;
 
