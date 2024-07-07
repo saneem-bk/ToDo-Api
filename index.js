@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json());
 
-port = 2000
+const port = 2000;
 let todos = [];
 let newId = 1;
 
